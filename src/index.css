@@ -190,6 +190,8 @@ Menu
   display: grid;
   gap: 1rem 2rem;
   max-width: 25rem;
+  padding: 1rem;
+  box-shadow: 0px 2px 8px 0px #00000030;
 }
 .photo {
   object-fit: cover;
@@ -220,6 +222,8 @@ Menu
     grid-template-columns: 225px 1fr;
     gap: 0 1.25rem;
     max-width: 40rem;
+    padding: 1rem;
+    box-shadow: 0px 2px 8px 0px #c89d5f52;
   }
   .photo {
     height: 175px;
