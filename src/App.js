@@ -5,17 +5,17 @@ import items from './data';
 
 function App() {
 
-  const allCategories = ['all',...new Set(items.map(item=> item.category))] //returns only unique values
+  const allCategories = ['all', ...new Set(items.map(item => item.category))] //returns only unique values
   console.log(allCategories)
-  const [categories,setCategories] = useState(allCategories)
-  const [menuItems,setMenuItems] = useState(items)
+  const [categories, setCategories] = useState(allCategories)
+  const [menuItems, setMenuItems] = useState(items)
 
-  const filterItems = (category)=>{
-    if(category === 'all'){
+  const filterItems = (category) => {
+    if (category === 'all') {
       setMenuItems(items);
       return
     }
-    const newItems = items.filter((item)=>{return item.category === category})
+    const newItems = items.filter((item) => { return item.category === category })
     setMenuItems(newItems)
   }
 
@@ -26,8 +26,8 @@ function App() {
           <h2>Our Menu</h2>
           <div className='underline'></div>
         </div>
-        <Categories categories={categories} filterItems={filterItems}/>
-        <Menu items= {menuItems}/>
+        <Categories categories={categories} filterItems={filterItems} />
+        <Menu items={menuItems} />
       </section>
     </main>
   )
