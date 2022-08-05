@@ -1,4 +1,4 @@
-# Menu Caard
+# Menu Card
 
 Application developed on React.js
 
