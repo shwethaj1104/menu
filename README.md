@@ -2,7 +2,7 @@
 
 Application developed on React.js
 
-Check out the application at
+Check out the application at https://menu-rouge.vercel.app/
 
 Menu with all available varieties :
 
