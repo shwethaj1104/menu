@@ -2,7 +2,7 @@
 
 Application developed on React.js
 
-Check out the application at https://menu-rouge.vercel.app/
+Check out application at https://menu-rouge.vercel.app/
 
 Landing Manu page : 
 
